@@ -40,3 +40,7 @@ button {
   background-color: var(--accent-color);
   color: var(--body-color);
 }
+
+.footer {
+  margin-top: 20px;
+}
