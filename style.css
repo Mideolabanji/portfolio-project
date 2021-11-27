@@ -10,7 +10,6 @@ body {
 }
 
 h2 {
-  margin-top: 100px;
   font-weight: 400;
   font-size: 40px;
 }
@@ -24,7 +23,7 @@ h1 {
 
 h6 {
   margin-top: 4px;
-  margin-bottom: 27px;
+  margin-bottom: 60px;
   font-size: 20px;
 }
 
@@ -44,6 +43,10 @@ button {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   background-color: var(--accent-color);
   color: var(--body-color);
+}
+
+.margin {
+  margin: 230px 0;
 }
 
 .launch-links {
@@ -84,6 +87,7 @@ button {
 
   h2 {
     font-size: 35px;
+    margin-top: 100px;
   }
 
   h1 {
@@ -91,8 +95,16 @@ button {
     margin-bottom: 8px;
   }
 
+  h6 {
+    margin-bottom: 27px;
+  }
+
   button {
     margin-top: 5px;
+  }
+
+  .margin {
+    margin: 0;
   }
 
   .weather-description,
