@@ -62,12 +62,9 @@ button {
   text-align: left;
 }
 
-.weather-description {
+.weather-description,
+.about-content {
   padding: 100px 60px 0;
-}
-
-.writer-description {
-  padding-left: 20px;
 }
 
 .footer {
