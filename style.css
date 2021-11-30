@@ -46,6 +46,14 @@ button {
   color: var(--body-color);
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.navbar-items:hover {
+  text-decoration: underline;
+}
+
 .margin {
   margin: 230px 0;
 }
