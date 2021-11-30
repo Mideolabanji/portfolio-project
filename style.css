@@ -68,10 +68,26 @@ button {
   padding: 100px 60px 0;
 }
 
-.contact-links {
-  margin: 30px 0 40px 0;
-  display: flex;
-  justify-content: space-evenly;
+.email {
+  margin-top: 10px;
+}
+
+.email-link,
+.social-link {
+  text-decoration: none;
+  color: black;
+}
+.email-link:hover,
+.social-link:hover {
+  color: var(--accent-color);
+}
+
+.social-link {
+  margin-left: 15px;
+}
+
+.social-links {
+  margin-bottom: 30px;
 }
 
 .about-button {
@@ -143,15 +159,7 @@ button {
     text-align: center;
   }
 
-  .contact-links {
-    display: inline;
-  }
-
-  .mail-link {
-    margin-top: 30px;
-  }
-
-  .instagram-link {
-    margin-bottom: 40px;
+  .email-link {
+    font-size: 27px;
   }
 }
