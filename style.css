@@ -142,4 +142,12 @@ button {
   .contact-links {
     display: inline;
   }
+
+  .mail-link {
+    margin-top: 30px;
+  }
+
+  .instagram-link {
+    margin-bottom: 40px;
+  }
 }
