@@ -84,6 +84,7 @@ button {
 
 .social-link {
   margin-left: 15px;
+  font-size: 18px;
 }
 
 .social-links {
@@ -112,6 +113,18 @@ button {
   text-decoration: var(--text-decoration);
   margin-top: 35px;
   margin-bottom: 0;
+}
+
+.github {
+  font-size: 16px;
+}
+
+.github a {
+  color: black;
+}
+
+.github a:hover {
+  color: var(--accent-color);
 }
 
 .ul {
