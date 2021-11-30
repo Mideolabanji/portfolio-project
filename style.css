@@ -98,6 +98,10 @@ button {
   margin-bottom: 0;
 }
 
+.ul {
+  margin-left: auto;
+}
+
 @media (max-width: 576px) {
   .navbar {
     padding-left: 0 !important;
