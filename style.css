@@ -1,6 +1,7 @@
 :root {
   --body-color: #f5ecdb;
   --accent-color: #ad4601;
+  --text-decoration: underline;
 }
 
 body {
@@ -73,8 +74,23 @@ button {
   justify-content: space-evenly;
 }
 
+.about-button {
+  margin-top: 15px;
+}
+
 .nav-color {
   color: var(--body-color) !important;
+}
+
+.about-me {
+  text-decoration: var(--text-decoration);
+  margin-bottom: 25px;
+}
+
+.my-work,
+.contact-me {
+  text-decoration: var(--text-decoration);
+  margin: 25px 0;
 }
 
 @media (max-width: 576px) {
