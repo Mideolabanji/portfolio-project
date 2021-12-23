@@ -23,7 +23,11 @@ let homepageLink = document.querySelector("#homepageLink");
 let underlineAboutLink = document.querySelector("#aboutLink");
 let underlineWorkLink = document.querySelector("#workLink");
 let underlineContactLink = document.querySelector("#contactLink");
+let contactButton = document.querySelector("#contact-button");
+let projectButton = document.querySelector("#project-button");
 
 underlineAboutLink.addEventListener("click", underlineAbout);
 underlineWorkLink.addEventListener("click", underlineWork);
 underlineContactLink.addEventListener("click", underlineContact);
+contactButton.addEventListener("click", underlineContact);
+projectButton.addEventListener("click", underlineWork);
