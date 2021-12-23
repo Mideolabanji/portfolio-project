@@ -35,7 +35,10 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-1">
       <div class="container-fluid">
-        <a class="navbar-brand ps-5 fw-bold fs-3 nav-color navbar" href="/"
+        <a
+          class="navbar-brand ps-5 fw-bold fs-3 nav-color navbar"
+          href="/"
+          title="Olamide Olabanji"
           >Olamide Olabanji</a
         >
         <button
@@ -97,9 +100,9 @@
         <h2>👋 Hi, I am</h2>
         <h1>Olamide Olabanji</h1>
         <h6>Front-end developer based in Nigeria</h6>
-        <button>
-          <a class="launch-links" href="index.html#contact-me">Contact Me</a>
-        </button>
+        <a class="launch-links" href="index.html#contact-me">
+          <button id="button">Contact Me</button>
+        </a>
       </div>
 
       <h2 class="about-me" id="about-me">About Me</h2>
@@ -108,24 +111,22 @@
           <img
             src="images/image.jpeg"
             alt="Olamide Olabanji"
-            class="img-fluid rounded"
+            class="img-fluid rounded img"
+            width="500"
           />
         </div>
         <div class="col-md-6 about-content">
-          <h3>Olamide Olabanji</h3>
-          <p>
-            is a 20-year-old Front-end developer learning to code via the
-            SheCodes bootcamp, a hands-on online coding workshop for women. I
-            live in Lagos, Nigeria. You will find me, in my spare time,
-            head-deep in a romance novel or creating an impeccable playlist of
-            Nigerian music.
+          <p class="about">
+            I am a Front-end developer who is proficient in building interesting
+            and responsive websites and applications - among which includes a
+            weather app and a matchmaking app.
           </p>
-          <button class="about-button">
-            <a href="index.html#my-work" class="launch-links">View Projects</a>
-          </button>
+          <a href="index.html#my-work" class="launch-links"
+            ><button class="about-button">View Projects</button></a
+          >
         </div>
       </div>
-      <h2 id="my-work" class="my-work">What I have been working on 👇</h2>
+      <h2 id="my-work" class="my-work">Projects</h2>
       <div class="row">
         <div class="col-md-6 text weather-description">
           <h3>Weather App</h3>
@@ -134,13 +135,13 @@
             and Vanilla Javascript. It is open-source and can be found on my
             Github profile.
           </p>
-          <button>
-            <a
-              href="https://distracted-turing-19e871.netlify.app/"
-              class="launch-links"
-              >Launch Weather App</a
-            >
-          </button>
+          <a
+            href="https://distracted-turing-19e871.netlify.app/"
+            class="launch-links"
+            target="_blank"
+          >
+            <button>Launch Weather App</button>
+          </a>
         </div>
         <div class="col-6">
           <img
@@ -154,26 +155,27 @@
       <div class="row mt-5">
         <div class="col-6">
           <img
-            src="images/portfolio.gif"
+            src="images/finders keepers.jpeg"
             alt="writer's portfolio preview"
             class="img-fluid d-none d-md-block"
-            width="500"
+            width="450"
           />
         </div>
         <div class="col-md-6 text writer-description">
-          <h3>Writer's Portfolio</h3>
+          <h3>Matchmaking App</h3>
           <p>
-            In the event that I am not writing code, I am writing words. I
-            designed and built my writer's portfolio, with HTML, CSS and
-            Javascript. Within it are some of my best works.
+            I built and designed a (fake) multiple-page, fully responsive
+            matchmaking website which collects data from
+            <em>users</em> in a bid to pair them with a friend, lover and/or
+            roommate.
           </p>
-          <button>
-            <a
-              href="https://distracted-turing-19e871.netlify.app/"
-              class="launch-links"
-              >Launch Writer's Portfolio</a
-            >
-          </button>
+          <a
+            href="https://reverent-edison-717c2b.netlify.app/"
+            class="launch-links"
+            target="_blank"
+          >
+            <button>Launch Matchmaking Website</button>
+          </a>
         </div>
       </div>
       <h2 id="contact-me" class="contact-me">Let's get in touch!</h2>
