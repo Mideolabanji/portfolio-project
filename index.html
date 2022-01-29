@@ -15,7 +15,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -31,6 +30,8 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-1">
@@ -119,7 +120,7 @@
           <p class="about">
             I am a Front-end developer who is proficient in interpreting designs
             and building responsive and user-friendly websites. I am familiar
-            with HTML, CSS, Javascript, and React.
+            with HTML, CSS, Bootstrap, Javascript, and React.
           </p>
           <a href="index.html#my-work" class="launch-links"
             ><button class="button" id="project-button" title="View Projects">
@@ -133,12 +134,11 @@
         <div class="col-md-6 text weather-description">
           <h3>Weather App</h3>
           <p>
-            I built and designed a fully functional weather app with HTML, CSS
-            and Vanilla Javascript. It is open-source and can be found on my
-            Github profile.
+            I built and designed this fully functional weather app using HTML,
+            CSS, Bootstrap, API, and Vanilla Javascript.
           </p>
           <a
-            href="https://distracted-turing-19e871.netlify.app/"
+            href="https://olamides-weather-app.netlify.app/"
             class="launch-links"
             target="_blank"
           >
@@ -160,21 +160,21 @@
         <div class="col-6">
           <img
             src="images/matchmaking app.png"
-            alt="writer's portfolio preview"
+            alt="Matchmaking website"
             class="img-fluid d-none d-md-block"
             width="500"
           />
         </div>
-        <div class="col-md-6 text writer-description">
-          <h3>Matchmaking App</h3>
+        <div class="col-md-6 text matchmaking-description">
+          <h3>Matchmaking Website</h3>
           <p>
-            I built and designed a (fake) multiple-page, fully responsive
+            I built and designed this multiple-page, fully responsive
             matchmaking website which collects data from
             <em>users</em> in a bid to pair them with a friend, lover and/or
             roommate.
           </p>
           <a
-            href="https://reverent-edison-717c2b.netlify.app/"
+            href="https://matchmaking-website.netlify.app/"
             class="launch-links"
             target="_blank"
           >
@@ -184,7 +184,7 @@
           </a>
         </div>
       </div>
-      <h2 id="contact-me" class="contact-me">Let's get in touch!</h2>
+      <h2 id="contact-me" class="contact-me">Get in touch</h2>
       <h3 class="email">
         <a class="email-link" href="mailto:olabanjikaosara@yahoo.com">
           olabanjikaosara@yahoo.com
@@ -223,6 +223,10 @@
         >
       </p>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="index.js"></script>
   </body>
 </html>

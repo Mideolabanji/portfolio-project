@@ -169,6 +169,10 @@ button:hover::after {
   padding-top: 40px;
 }
 
+.weather-description {
+  padding-top: 80px;
+}
+
 .my-work {
   text-decoration: var(--text-decoration);
   margin: 25px 0;
@@ -223,13 +227,13 @@ button:hover::after {
     margin: 0;
   }
 
+  .about-content,
   .weather-description,
-  .writer-description,
-  .about-content {
+  .matchmaking-description {
     padding: 10px;
   }
 
-  .writer-description {
+  .matchmaking-description {
     margin-top: 0 !important;
   }
 
