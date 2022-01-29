@@ -108,7 +108,7 @@
 
       <h2 class="about-me" id="about-me">About Me</h2>
       <div class="row">
-        <div class="col-md-6 img-border">
+        <div class="col-md-6 img-border" data-aos="fade-right">
           <img
             src="images/IMG_8956 .jpg"
             alt="Olamide Olabanji"
@@ -116,7 +116,7 @@
             width="500"
           />
         </div>
-        <div class="col-md-6 about-content">
+        <div class="col-md-6 about-content" data-aos="fade-left">
           <p class="about">
             I am a Front-end developer who is proficient in interpreting designs
             and building responsive and user-friendly websites. I am familiar
@@ -131,7 +131,7 @@
       </div>
       <h2 id="my-work" class="my-work">Projects</h2>
       <div class="row">
-        <div class="col-md-6 text weather-description">
+        <div class="col-md-6 text weather-description" data-aos="fade-right">
           <h3>Weather App</h3>
           <p>
             I built and designed this fully functional weather app using HTML,
@@ -165,7 +165,7 @@
             width="500"
           />
         </div>
-        <div class="col-md-6 text matchmaking-description">
+        <div class="col-md-6 text matchmaking-description" data-aos="fade-left">
           <h3>Matchmaking Website</h3>
           <p>
             I built and designed this multiple-page, fully responsive
@@ -225,7 +225,10 @@
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
     </script>
     <script src="index.js"></script>
   </body>
