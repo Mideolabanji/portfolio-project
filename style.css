@@ -38,7 +38,7 @@ p {
   line-height: 1.7;
 }
 
-button {
+.launch-links button {
   position: relative;
   display: inline-block;
   padding: 17px 30px;
@@ -48,7 +48,7 @@ button {
   transition: all ease 0.5s;
 }
 
-button:before {
+.launch-links button:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -60,7 +60,7 @@ button:before {
   transition: all ease 0.5s;
 }
 
-button:after {
+.launch-links button:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -72,20 +72,21 @@ button:after {
   transition: all ease 0.5s;
 }
 
-button:hover {
+.launch-links button:hover {
   background-color: #d6c64d;
   border: #d6c64d;
 }
 
-button:hover::before {
+.launch-links button:hover::before {
   top: -10px;
   left: -10px;
 }
 
-button:hover::after {
+.launch-links button:hover::after {
   top: 10px;
   left: 10px;
 }
+
 .underline {
   text-decoration: underline;
 }
