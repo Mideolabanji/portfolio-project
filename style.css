@@ -99,8 +99,16 @@ button:hover::after {
   opacity: 1;
 }
 
+.img {
+  width: 50%;
+}
+.img-border {
+  border: 2px solid var(--accent-color);
+  padding: 27px 0;
+}
+
 .margin {
-  margin: 230px 0;
+  margin: 235px 0;
 }
 
 .launch-links {
@@ -114,11 +122,6 @@ button:hover::after {
 
 .text {
   text-align: left;
-}
-
-.weather-description,
-.about-content {
-  padding: 100px 60px 0;
 }
 
 .email {
@@ -160,6 +163,10 @@ button:hover::after {
 .about {
   padding-top: 35px;
   font-size: 25px;
+}
+
+.about-content {
+  padding-top: 40px;
 }
 
 .my-work {
