@@ -90,8 +90,13 @@ button:hover::after {
   text-decoration: underline;
 }
 
+.opacity {
+  opacity: 0.9;
+}
+
 .navbar-items:hover {
   text-decoration: underline;
+  opacity: 1;
 }
 
 .margin {

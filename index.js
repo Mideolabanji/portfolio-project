@@ -3,6 +3,10 @@ function underlineAbout() {
   underlineWorkLink.classList.remove("underline");
   underlineContactLink.classList.remove("underline");
   underlineAboutLink.classList.add("underline");
+  underlineAboutLink.classList.remove("opacity");
+  homepageLink.classList.add("opacity");
+  underlineWorkLink.classList.add("opacity");
+  underlineContactLink.classList.add("opacity");
 }
 
 function underlineWork() {
@@ -10,6 +14,10 @@ function underlineWork() {
   underlineAboutLink.classList.remove("underline");
   underlineContactLink.classList.remove("underline");
   underlineWorkLink.classList.add("underline");
+  underlineWorkLink.classList.remove("opacity");
+  homepageLink.classList.add("opacity");
+  underlineAboutLink.classList.add("opacity");
+  underlineContactLink.classList.add("opacity");
 }
 
 function underlineContact() {
@@ -17,6 +25,10 @@ function underlineContact() {
   underlineAboutLink.classList.remove("underline");
   underlineWorkLink.classList.remove("underline");
   underlineContactLink.classList.add("underline");
+  underlineContactLink.classList.remove("opacity");
+  homepageLink.classList.add("opacity");
+  underlineAboutLink.classList.add("opacity");
+  underlineWorkLink.classList.add("opacity");
 }
 
 let homepageLink = document.querySelector("#homepageLink");
