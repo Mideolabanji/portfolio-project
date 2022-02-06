@@ -38,6 +38,14 @@ p {
   line-height: 1.7;
 }
 
+.femco-link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.femco-link:hover {
+  text-decoration: underline;
+}
+
 .launch-links button {
   position: relative;
   display: inline-block;
