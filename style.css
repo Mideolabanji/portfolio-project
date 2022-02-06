@@ -39,11 +39,11 @@ p {
 }
 
 .femco-link {
-  color: var(--accent-color);
+  color: black;
   text-decoration: none;
 }
 .femco-link:hover {
-  text-decoration: underline;
+  color: var(--accent-color);
 }
 
 .launch-links button {
