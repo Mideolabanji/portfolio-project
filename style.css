@@ -182,6 +182,10 @@ p {
   padding-top: 80px;
 }
 
+.dictionary-description {
+  padding-top: 50px;
+}
+
 .my-work {
   text-decoration: var(--text-decoration);
   margin: 25px 0;
@@ -238,11 +242,12 @@ p {
 
   .about-content,
   .weather-description,
-  .matchmaking-description {
+  .matchmaking-description,
+  .dictionary-description {
     padding: 10px;
   }
 
-  .matchmaking-description {
+  .dictionary-description {
     margin-top: 0 !important;
   }
 
@@ -252,5 +257,10 @@ p {
 
   .email-link {
     font-size: 27px;
+  }
+
+  .weather-img {
+    width: 380px;
+    margin-top: 15px;
   }
 }
