@@ -186,6 +186,10 @@ p {
   padding-top: 50px;
 }
 
+.insure-description {
+  padding-top: 70px;
+}
+
 .my-work {
   text-decoration: var(--text-decoration);
   margin: 25px 0;
@@ -240,9 +244,14 @@ p {
     margin: 0;
   }
 
+  .dictionary-description,
+  .insure-description {
+    padding-left: 0 !important;
+  }
+
   .about-content,
   .weather-description,
-  .matchmaking-description,
+  .insure-description,
   .dictionary-description {
     padding: 10px;
   }
